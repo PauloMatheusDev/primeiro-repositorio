@@ -1,5 +1,4 @@
 - # Primeiro-repositorio
-   1. Git/Markdown
 
 **Frontend**
 
