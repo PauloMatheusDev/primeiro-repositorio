@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 
+span{
+  font-size: 7.2rem;
+  margin-left: 50px;
+}
 * {
   box-sizing: border-box;
 }
@@ -11,7 +15,7 @@
 /* https://caniuse.com/css-media-range-syntax */
 @media screen and (width >= 600px) {
   :root {
-    --bg-color: #ff4500;
+    --bg-color: rgb(231, 229, 229);
   }
 }
 
@@ -32,12 +36,12 @@ body {
 /* https://caniuse.com/css-container-queries-style */
 @container style(--theme: dark) {
   .card {
-    background: #ff4500;
-    color: white;
+    background: white;
+    color: black;
   }
 
   .card > * {
-    color: white;
+    color: black;
   }
 }
 
@@ -90,7 +94,7 @@ main {
 @layer demo {
   h1,
   p {
-    color: white;
+    color: rgb(0, 0, 0);
   }
 
   img {
